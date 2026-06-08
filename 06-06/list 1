@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Engineering Requirement</h1>
+    <ol type="1">
+      <h2> <b> <li>SOFT ENGINEER</li></b></h2> 
+        <ul>
+            <h3><li>java full stack</li></h3>
+            <ol>
+               <u><li>java</li>
+                <li>sql</li>
+                <li>webtech</li>
+                <li>j2ff</li></u>
+            </ol>
+           <h3> <li>mern stack</li></h3>
+            <ol>
+                <li>mern 1</li>
+                <li>mwen 2</li>
+            </ol>
+            <li>mean stack</li>
+            <ol>
+                <li>mean 1</li>
+                <li>mean 2</li>
+            </ol>
+        </ul>
+      <h2> <b> <li>mechanical engineer</li></b></h2>
+       <ul>
+        <li>quality engineer</li>
+        <ol>
+            <li>analyst</li>
+            <li>quality assurance</li>
+        </ol>
+        <li>design engineer</li>
+        <ol>
+            <li>design 1</li>
+            <li>design 2</li>
+            <li>design 3</li>
+        </ol>
+        
+       </ul>
+      <h2><b> <li>civil engineer</li> </b></h2>
+       <ul>
+        <li>infrastructure engineer</li>
+        <ol>
+            <li>infrasture 1</li>
+            <li>infrastructre 2</li>
+            <li>infrastructure 3</li>
+        </ol>
+        <li>design engineer</li>
+        <ol>
+            <li>design 1</li>
+            <li>design 2</li>
+        </ol>
+       </ul>
+
+    </ol>
+</body>
+</html>
