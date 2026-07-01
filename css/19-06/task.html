@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In Form</title>
+    <link rel="shortcut icon" href="./user.png" type="image/x-icon">
+    <!-- UnifrakturCook Font -->
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+            background:white;
+        }
+
+        .container{
+            width:250px;
+            background:black;
+            border-radius:20px;
+            padding:30px;
+        }
+
+        h2{
+            color:white;
+            text-align:center;
+            font-family:'UnifrakturCook', cursive;
+            font-size:40px;
+            margin-bottom:40px;
+        }
+
+        .input-box{
+            display:flex;
+            align-items:center;
+            margin-bottom:30px;
+        }
+
+        .input-box i{
+            color:blue;
+            font-size:20px;
+            margin-right:10px;
+        }
+
+        .input-box input{
+            width:100%;
+            background:transparent;
+            border:none;
+            border-bottom:2px solid gray;
+            outline:none;
+            color:white;
+            padding:5px;
+            font-size:15px;
+        }
+
+        .btn{
+            display:block;
+            margin:20px auto 0;
+            padding:10px 30px;
+            border:none;
+            border-radius:20px;
+            background:white;
+            color:black;
+            cursor:pointer;
+            font-family:'Great Vibes', cursive;
+            font-size:28px;
+            box-shadow:0 0 8px rgba(255,255,255,0.5);
+        }
+
+.btn:hover{
+    background:#e8e8e8;
+}
+
+        .btn:hover{
+            background:#d9d9d9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>Sign In</h2>
+
+        <div class="input-box">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Username">
+        </div>
+
+        <div class="input-box">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email">
+        </div>
+
+        <div class="input-box">
+            <i class="fa-solid fa-phone"></i>
+            <input type="tel" placeholder="Phone">
+           
+        </div>
+
+        <button class="btn">Sign In</button>
+
+    </div>
+
+</body>
+</html>
