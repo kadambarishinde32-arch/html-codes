@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f1f3f6;
+}
+
+.container{
+    width:80%;
+    height:550px;
+    background:white;
+    margin:40px auto;
+    display:flex;
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+.left{
+    width:35%;
+    background:#2874f0;
+    color:white;
+    padding:40px 30px;
+    position:relative;
+}
+
+.left h1{
+    margin-bottom:20px;
+}
+
+.left p{
+    font-size:24px;
+    line-height:40px;
+    color:#dbdbdb;
+}
+
+.left img{
+    width:250px;
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.right{
+    width:65%;
+    padding:50px;
+    position:relative;
+}
+
+.input-box{
+    width:100%;
+    border:none;
+    border-bottom:2px solid #2874f0;
+    padding:10px 0;
+    font-size:18px;
+    outline:none;
+}
+
+.terms{
+    margin-top:50px;
+    color:gray;
+    font-size:14px;
+}
+
+.terms a{
+    text-decoration:none;
+    color:#2874f0;
+}
+
+.btn{
+    width:100%;
+    margin-top:30px;
+    padding:15px;
+    background:#fb641b;
+    color:white;
+    border:none;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.signup{
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.signup a{
+    text-decoration:none;
+    color:#2874f0;
+    font-size:18px;
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="left">
+
+        <h1>Login</h1>
+
+        <p>
+            Get access to your Orders,<br>
+            Wishlist and Recommendations
+        </p>
+
+        <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png" alt="login image">
+
+    </div>
+
+    <div class="right">
+
+        <input
+            type="text"
+            class="input-box"
+            placeholder="Enter Email/Mobile number"
+        >
+
+        <p class="terms">
+            By continuing, you agree to Flipkart's
+            <a href="#">Terms of Use</a>
+            and
+            <a href="#">Privacy Policy</a>.
+        </p>
+
+        <button class="btn">
+            Request OTP
+        </button>
+
+        <div class="signup">
+            <a href="#">
+                New to Flipkart? Create an account
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

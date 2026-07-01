@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Card</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#b9e3f1;
+    font-family:Arial, sans-serif;
+}
+
+.card{
+    width:900px;
+    margin:50px auto;
+    background-color:#dff1f8;
+    border-radius:20px;
+    padding:40px;
+}
+
+.profile{
+    display:flex;
+    gap:30px;
+}
+
+.profile img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+}
+
+.info h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.info h3{
+    color:#444;
+    margin-bottom:30px;
+}
+
+.info p{
+    font-size:24px;
+    line-height:1.5;
+    color:#555;
+}
+
+.stats{
+    display:flex;
+    gap:80px;
+    margin-top:40px;
+}
+
+.stats h2{
+    font-size:40px;
+}
+
+.stats p{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.buttons{
+    margin-top:40px;
+}
+
+.follow{
+    background:black;
+    color:white;
+    border:none;
+    padding:15px 50px;
+    font-size:20px;
+    border-radius:10px;
+    cursor:pointer;
+    margin-right:15px;
+}
+
+.profile-btn{
+    background:transparent;
+    border:2px solid #666;
+    padding:15px 50px;
+    font-size:20px;
+    border-radius:10px;
+    cursor:pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+
+    <div class="profile">
+
+        <img src="images.jpg" alt="Profile">
+
+        <div class="info">
+
+            <h1>Kadambari Shinde</h1>
+
+            <h3>@shindekadambari</h3>
+
+            <p>
+                I am a computer science student interested in web development. I love designing user-friendly interfaces,building projects that solve real problems.
+            </p>
+
+            <div class="stats">
+
+                <div>
+                    <h2>15K</h2>
+                    <p>Views</p>
+                </div>
+
+                <div>
+                    <h2>82</h2>
+                    <p>Projects</p>
+                </div>
+
+                <div>
+                    <h2>1.3M</h2>
+                    <p>Followers</p>
+                </div>
+
+            </div>
+
+            <div class="buttons">
+                <button class="follow">Follow</button>
+                <button class="profile-btn">View Profile</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
